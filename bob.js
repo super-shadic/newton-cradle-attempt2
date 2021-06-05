@@ -21,10 +21,10 @@ class bob
 	display()
 	{
 			
-			var paperpos=this.body.position;		
+			var bobpos=this.body.position;		
 
 			push()
-			translate(paperpos.x, paperpos.y);
+			translate(bobpos.x, bobpos.y);
 			rectMode(CENTER)
 			strokeWeight(3);
 			fill(255,0,255)
